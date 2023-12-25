@@ -1,0 +1,14 @@
+#profileImage {
+    transition: width 0.5s, height 0.5s, transform 0.5s; /* 添加過渡效果 */
+  }
+  
+  #profileImage.small {
+    width: 100px; /* 設定縮小後的寬度 */
+    height: 100px; /* 設定縮小後的高度 */
+    transform: scale(0.5); /* 設定縮小效果 */
+  }
+  
+  #profileImage.rounded {
+    border-radius: 50%;
+    border: 4px solid red;
+  }
